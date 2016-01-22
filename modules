@@ -15,7 +15,7 @@ PACKAGES_FFRL_PACKAGES_REPO=https://github.com/ffrl/ffrl-packages.git
 
 ##	PACKAGES_$feedname_COMMIT
 #		the version/commit of the git repository to clone
-PACKAGES_FFRL_PACKAGES_COMMIT=0a8b47f6dbc175e61eb40a9a22b628a412b61599
+PACKAGES_FFRL_PACKAGES_COMMIT=e9ee023b8ac4c26c88744c4ba4b286bbbc69078f
 
 ##  PACKAGES_$feedname_BRANCH
 #   the branch to check out
