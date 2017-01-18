@@ -3,6 +3,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-alfred \
 	gluon-respondd \
 	ffho-ath9k-blackout-workaround \
+	gluon-autorestart \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
