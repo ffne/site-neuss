@@ -2,7 +2,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
 	gluon-alfred \
 	gluon-respondd \
-	ffho-ath9k-blackout-workaround \
 	gluon-autorestart \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
@@ -84,3 +83,5 @@ GLUON_PRIORITY ?= 0
 GLUON_LANGS ?= en de
 
 GLUON_ATH10K_MESH ?= ibss
+
+GLUON_REGION := eu
