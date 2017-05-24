@@ -21,6 +21,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-next-node \
 	gluon-mesh-vpn-tunneldigger \
 	gluon-tunneldigger-watchdog \
+	gluon-vlancleanup \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
@@ -82,6 +83,6 @@ GLUON_PRIORITY ?= 0
 
 GLUON_LANGS ?= en de
 
-GLUON_ATH10K_MESH ?= ibss
+GLUON_ATH10K_MESH ?= 11s
 
 GLUON_REGION := eu
