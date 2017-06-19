@@ -23,7 +23,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	gluon-status-page \
 	iwinfo \
-	iptables \
 	haveged
 
 USB_BASIC := \
@@ -69,7 +68,7 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 		$(USB_WIFI)
 endif
 
-DEFAULT_GLUON_RELEASE := v1.2.X-exp-$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := v1.5.X-exp-$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -79,6 +78,6 @@ GLUON_PRIORITY ?= 0
 
 GLUON_LANGS ?= en de
 
-GLUON_ATH10K_MESH ?= ibss
+GLUON_ATH10K_MESH ?= 11s
 
 GLUON_REGION := eu
